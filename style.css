@@ -1,0 +1,134 @@
+.container{
+    background-image: url(./pexels-felix-mittermeier-956999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100vh;
+    padding-bottom: 90px;
+
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: -550px; 
+}
+.me{
+    font-family: "Sacramento", cursive;
+    font-size: 7.2rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.wha{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+    margin-top: -140px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+.pro{
+   text-decoration: underline;
+}
+.myimg{
+   
+    height: 190px;
+    border-radius: 50%;
+   
+}
+.img{
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    margin: -0.5px;
+    background-color: #23272a;
+    
+}
+.containerbottom{
+    margin-top: 27px;
+    display: block;
+    text-align: center;
+}
+.hello{
+    color: #7289da;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+}
+.intro {
+    color: aliceblue;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.typing{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    }
+    h3{
+        color: #7289da;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 1.2rem;
+    }
+    #cat{
+        margin-right: 20px;
+    }
+    #skills{
+        color: aliceblue;
+        font-family: "Merriweather", serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .hotwings{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 50%;
+        margin: 100px auto 0 auto;
+        text-align: left;
+        row-gap: 2rem;
+    }
+    #controller{
+        height: 150px;
+        margin-right: 20px;
+    }
+    .hello2{
+        color: #7289da;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 2.6rem;
+    margin-top: 76px;
+    margin-bottom: -15px;
+    }
+    .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #7289da, #7289da);
+        background-image: -moz-linear-gradient(top, #7289da, #7289da);
+        
+        background-image: -o-linear-gradient(top, #7289da, #7289da);
+        background-image: linear-gradient(to bottom, #7289da, #7289da);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+    .contact{
+        margin-bottom: 30px;
+    }
+    .bottom-container {
+        background-color: #66bfbf;
+        padding: 50px 0 20px;
+    }
